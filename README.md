@@ -28,6 +28,12 @@ My GitHub is open to a [sponsor program](https://github.com/sponsors/Xeeynamo). 
 
 You need to decrypt your save before opening it with Kingdom Save Editor. Please refer to [this guide](docs/decryption.md) to know how to decrypt your save.
 
+## Development prerequisites
+
+For local development and CI reproducibility:
+- WPF/editor projects now target `net10-windows` and require .NET 10 SDK.
+- Core libraries/tests are also migrated to `net10.0`.
+
 ## Contribution
 
 ### Contribute to make it better
