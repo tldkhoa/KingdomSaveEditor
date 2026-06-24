@@ -32,7 +32,7 @@ You need to decrypt your save before opening it with Kingdom Save Editor. Please
 
 For local development and CI reproducibility:
 - WPF/editor projects now target `net10-windows` and require .NET 10 SDK.
-- Core libraries/tests currently remain on `net6`.
+- Core libraries/tests are also migrated to `net10.0`.
 
 ## Contribution
 
