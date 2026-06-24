@@ -6,7 +6,7 @@ jobs:
   format-code:
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/dotnet/sdk:latest
+      image: mcr.microsoft.com/dotnet/sdk:10.0
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
